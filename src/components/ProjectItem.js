@@ -2,6 +2,14 @@ import React from 'react';
 import { Card, CardHeader, CardMedia, CardContent, Typography, CardActionArea } from '@mui/material';
 import { Link } from 'react-router-dom';
 
+const cardSX = {
+    '&:hover': {
+        borderColor: 'lightblue',
+        color: 'lightblue',
+        backgroundColor: 'lightwhite'
+    }
+}
+
 function ProjectItem({image, name, tools, link}) {
   return (
     <div>
@@ -10,7 +18,7 @@ function ProjectItem({image, name, tools, link}) {
             borderRadius: 5, 
             borderColor: 'white',
             bgcolor:"text.disabled",}}>
-            <CardActionArea component={Link} to={link}>
+            <CardActionArea sx={cardSX} component={Link} to={link} target='_blank'>
                 <CardMedia component="img"
                     height="194"
                     image={image}>

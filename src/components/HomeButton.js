@@ -4,7 +4,7 @@ import { Button } from '@mui/material';
 
 function HomeButton({link, name, icon}) {
   return (
-    <Link to={link}>
+    <Link to={link} target='_blank'>
         <Button sx={{ borderRadius: 2, color: 'white', 
                 borderColor: 'white', 
                 marginLeft: -5,
