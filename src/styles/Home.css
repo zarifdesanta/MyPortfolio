@@ -1,0 +1,143 @@
+/* Reset some default styles to ensure consistent rendering across browsers */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: transparent;
+    
+  }
+  
+  /* Style for the main container */
+  .container {
+    padding: 0 auto;
+    font-family: Arial, sans-serif;
+    border-style:none;
+    display: inline;
+    justify-content: center;
+  }
+  
+  /* Style for the header section */
+  .header {
+    padding: 0 auto;
+    background-color:transparent;
+    display: inline;
+    /*padding: 10px 50px;*/ 
+    color: #fff; 
+    border: none;
+    border-style:none;
+    border-radius: 5px; 
+    justify-content: center;
+
+  }
+  
+  /* Style for the main heading */
+  .header h1 {
+    font-size: 36px;
+  }
+  
+  /* Style for the subheading or description */
+  .header p {
+    font-size: 18px;
+  }
+  
+  /* Style for the main content section */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Style for a feature or service section */
+  .feature {
+    padding: 20px;
+    color: #fff;
+  }
+  
+  /* Style for images within feature sections */
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for a call to action section */
+  .cta {
+    background-color: #ff4500;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style for buttons within the call to action section */
+  .cta button {
+    background-color: #fff;
+    color: #ff4500;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect for the button */
+  .cta button:hover {
+    background-color: #ddd;
+    color: #ff4500;
+  }
+  
+  .font-aqua {
+    color: aqua;
+  }
+
+  .font-white {
+    color:#fff;
+  }
+
+  .links {
+    list-style-type:square;
+  
+  }
+
+  .li-spacing {
+    padding-bottom: 15px;
+  }
+
+  .button {
+    margin-left: -38px;
+    padding: 10px 300px;
+     /* Adjust padding to control button size */
+    background-color:transparent; /* Button background color */
+    color: #fff; /* Text color */
+    font-size: 16px;
+    border: none;
+    border-style:groove;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  /* Hover effect for the button */
+.button:hover {
+    background-color: #2980b9; /* Change to your desired hover color */
+  }
+  
+  /* If you want to center the button horizontally */
+  .center-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* If you want to center the button vertically and horizontally */
+  .center-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

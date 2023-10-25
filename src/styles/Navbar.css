@@ -1,0 +1,96 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+  }
+  
+  /* Style for the navbar container */
+  .navbar {
+    background-color: transparent; /* Background color */
+    color: #fff; /* Text color */
+    display: flex;
+    justify-content:center;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline;
+    border-radius: 10px;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px;
+
+  }
+  
+  /* Style for the navigation menu */
+  .nav-list {
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    justify-content: center;
+    
+  }
+  
+  /* Style for each navigation item in the menu */
+  .nav-item {
+    margin: 0 10px;
+    position: relative; /* For dropdown animation */
+    transition: all 0.3s;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    border-style: groove;
+  }
+  
+  .nav-item:hover {
+    background-color: #2980b9; /* Change to your desired hover color */
+  }
+
+  /* Style for the links within the navigation items */
+  .nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  /* Change the link color on hover */
+  .nav-item a:hover {
+    color: #ff4500; /* Change to your desired hover color */
+  }
+  
+  /* Create a dropdown submenu */
+  .nav-item .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    z-index: 1;
+    width: 150px; /* Adjust width as needed */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Show the submenu on hover */
+  .nav-item:hover .sub-menu {
+    display: block;
+    opacity: 1;
+  }
+  
+  /* Style for submenu items */
+  .nav-item .sub-menu a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Change submenu item color on hover */
+  .nav-item .sub-menu a:hover {
+    background-color: #555; /* Change to your desired hover background color */
+  }
