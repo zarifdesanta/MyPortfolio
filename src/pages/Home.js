@@ -7,10 +7,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 
+import AnimatePage from '../components/AnimatePage';
+
 function Home() {
 
   return (
-    
+    <AnimatePage>
     <div className='container'>
       
       <div className='header'>
@@ -50,6 +52,7 @@ function Home() {
       </div>
       
     </div>
+    </AnimatePage>
   )
 }
 

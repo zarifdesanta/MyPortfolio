@@ -5,8 +5,11 @@ import ProjectItem from '../components/ProjectItem';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import { Container } from '@mui/material';
 
+import AnimatePage from '../components/AnimatePage';
+
 function MyProjects() {
   return (
+    <AnimatePage>
     <div className=''>
       <h1 className='name'>MY PROJECTS</h1>
       <Container>
@@ -36,6 +39,7 @@ function MyProjects() {
         </Grid>
       </Container>
     </div>
+    </AnimatePage>
   )
 }
 
