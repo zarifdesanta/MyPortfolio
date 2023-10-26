@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const cardSX = {
     '&:hover': {
         borderColor: 'blue',
-        color: 'lightblue',
+        color: 'white',
         backgroundColor: 'lightwhite'
     }
 }
