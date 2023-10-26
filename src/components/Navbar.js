@@ -22,26 +22,26 @@ function Navbar() {
             </Link>
         </div>
         <div>
-            <ButtonGroup variant="contained" size='large'>
-                <Link className='' to='/'>
-                <Button color="success" sx={{ borderRadius: 2, color: 'white', borderColor: 'white'}}
-                      startIcon={<HomeIcon></HomeIcon>}>
-                    HOME
-                </Button>
-                </Link>
-                <Link className='' to='/projects'>
-                <Button sx={{ borderRadius: 2, color: 'white', borderColor: 'white'}}
-                     startIcon={<EngineeringIcon></EngineeringIcon>}>
-                    MY WORKS
-                </Button>
-                </Link>
-                <Link className='' to='/academicInfo'>
-                <Button color='warning' sx={{ borderRadius: 2, color: 'white', borderColor: 'white'}}
-                     startIcon={<SchoolIcon></SchoolIcon>}>
-                    Academic Info
-                </Button>
-                </Link>
-            </ButtonGroup>
+          <ButtonGroup variant="contained" size='medium'>
+              <Link className='' to='/'>
+              <Button color="success" sx={{ borderRadius: 2, color: 'white', borderColor: 'white'}}
+                    startIcon={<HomeIcon></HomeIcon>}>
+                  HOME
+              </Button>
+              </Link>
+              <Link className='' to='/projects'>
+              <Button sx={{ borderRadius: 2, color: 'white', borderColor: 'white'}}
+                    startIcon={<EngineeringIcon></EngineeringIcon>}>
+                  MY WORKS
+              </Button>
+              </Link>
+              <Link className='' to='/academicInfo'>
+              <Button color='warning' sx={{ borderRadius: 2, color: 'white', borderColor: 'white'}}
+                    startIcon={<SchoolIcon></SchoolIcon>}>
+                  Academic Info
+              </Button>
+              </Link>
+          </ButtonGroup>
         </div>
     </div>
   )
