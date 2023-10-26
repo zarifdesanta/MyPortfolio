@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const cardSX = {
     '&:hover': {
-        borderColor: 'lightblue',
+        borderColor: 'blue',
         color: 'lightblue',
         backgroundColor: 'lightwhite'
     }
@@ -17,8 +17,8 @@ function ProjectItem({image, name, tools, link}) {
             height: 330,
             borderRadius: 5, 
             borderColor: 'white',
-            bgcolor:"text.disabled",}}>
-            <CardActionArea sx={cardSX} component={Link} to={link} target='_blank'>
+            bgcolor:"transparent", ...cardSX}}>
+            <CardActionArea component={Link} to={link} target='_blank' sx={{height: 330}}>
                 <CardMedia component="img"
                     height="194"
                     image={image}>

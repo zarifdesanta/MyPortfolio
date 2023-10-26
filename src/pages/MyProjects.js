@@ -3,7 +3,7 @@ import '../styles/MyProjects.css'
 import { ProjectList } from '../helper/ProjectList';
 import ProjectItem from '../components/ProjectItem';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
-import { Container, Paper } from '@mui/material';
+import { Container } from '@mui/material';
 
 function MyProjects() {
   return (
@@ -18,7 +18,7 @@ function MyProjects() {
         {
           ProjectList.map((projectItem, key) => {
             return (
-              <Grid sx={1}>
+              <Grid>
 
                 <ProjectItem
                   key = {key}

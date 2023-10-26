@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import '../styles/Navbar.css';
 import { Link } from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
@@ -9,6 +10,7 @@ import ZarfDevLogo from '../assets/ZarfDevLogo.png'
 //import createTheme and change color of buttons
 
 function Navbar() {
+
   return (
     <div className='navbar'>
         <div className='logo'>
