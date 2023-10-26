@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import MyProjects from './pages/MyProjects';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import AcademicInfo from './pages/AcademicInfo';
 
 import { useCallback } from 'react';
 import Particles from "react-particles";
@@ -29,6 +30,7 @@ function App() {
         <Routes key={location.pathname} location={location}>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/projects' element={<MyProjects></MyProjects>}></Route>
+          <Route path='/academicInfo' element={<AcademicInfo></AcademicInfo>}></Route>
         </Routes>
         </AnimatePresence>
         <Footer></Footer>
