@@ -22,7 +22,7 @@ function Navbar() {
             </Link>
         </div>
         <div>
-          <ButtonGroup variant="contained" size='medium'>
+          <ButtonGroup variant="contained" size='small'>
               <Link className='' to='/'>
               <Button color="success" sx={{ borderRadius: 2, color: 'white', borderColor: 'white'}}
                     startIcon={<HomeIcon></HomeIcon>}>
