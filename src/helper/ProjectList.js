@@ -10,30 +10,44 @@ import Lostdungeon from "../assets/lost_dungeon.png";
 import Edge from "../assets/edge.png";
 import Picoto from "../assets/picoto.png";
 import Vangari from "../assets/vangari.png";
+import BasicCalculatorBlack from "../assets/bcalcBlack.png";
+import FitnessTracker from "../assets/fitness.png";
 
 export const ProjectList = [
   {
+    image: FitnessTracker,
+    name: "FITNESS TRACKER",
+    tools: "Bootstrap, CSS, HTML",
+    link: "https://github.com/zarifdesanta/FitnessTracker",
+  },
+  {
+    image: BasicCalculatorBlack,
+    name: "BASIC CALCULATOR",
+    tools: "React Native, Javascript",
+    link: "https://github.com/zarifdesanta/BasicCalculatorApp",
+  },
+  {
     image: Vangari,
     name: "VANGARI",
-    tools: "REACT, JAVASCRIPT, MATERIAL UI, CSS",
+    tools: "React, Javascript, Material UI, CSS",
     link: "https://vangari.netlify.app/",
   },
   {
     image: Portfolio,
     name: "MY PORTFOLIO",
-    tools: "REACT, JAVASCRIPT, MATERIAL UI, CSS",
+    tools: "React, Javascript, Material UI, CSS",
     link: "https://zarfdev.netlify.app/",
   },
   {
     image: DHS,
     name: "DESIGNER HIRING SYSTEM",
-    tools: "HTML, PHP, MATERIALIZE, CSS, MySQL",
+    tools: "HTML, PHP, Materialize, CSS, MySQL",
     link: "https://github.com/zarifdesanta/DesignerHiringSystem/tree/main/DHS",
   },
   {
     image: ZMS,
     name: "ZOO MANAGEMENT SYSTEM",
-    tools: "HTML, PHP, MATERIALIZE, CSS, MySQL",
+    tools: "HTML, PHP, Materialize, CSS, MySQL",
     link: "https://github.com/zarifdesanta/ZooManagementSystem",
   },
 
@@ -82,7 +96,7 @@ export const ProjectList = [
   {
     image: Picoto,
     name: "PICOTO",
-    tools: "Unity Engine, C#",
+    tools: "Godot Engine, GDScript",
     link: "https://zarifdesanta.itch.io/picoto",
   },
 ];
