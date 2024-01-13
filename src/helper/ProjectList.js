@@ -12,8 +12,22 @@ import Picoto from "../assets/picoto.png";
 import Vangari from "../assets/vangari.png";
 import BasicCalculatorBlack from "../assets/bcalcBlack.png";
 import FitnessTracker from "../assets/fitness.png";
+import FocusTimer from "../assets/focus.png";
+import DriveByNotes from "../assets/notes.png";
 
 export const ProjectList = [
+  {
+    image: FocusTimer,
+    name: "FOCUS TIMER",
+    tools: "React, CSS, CSS Animation, HTML",
+    link: "https://focus500.netlify.app/",
+  },
+  {
+    image: DriveByNotes,
+    name: "DRIVE BY NOTES",
+    tools: "React, CSS, Material UI",
+    link: "https://drivebynotes.netlify.app/",
+  },
   {
     image: FitnessTracker,
     name: "FITNESS TRACKER",
