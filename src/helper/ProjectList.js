@@ -14,8 +14,15 @@ import BasicCalculatorBlack from "../assets/bcalcBlack.png";
 import FitnessTracker from "../assets/fitness.png";
 import FocusTimer from "../assets/focus.png";
 import DriveByNotes from "../assets/notes.png";
+import MoneyTracker from "../assets/money-tracker.png";
 
 export const ProjectList = [
+  {
+    image: MoneyTracker,
+    name: "MONEY TRACKING APP",
+    tools: "React Native, Styling, Javascript",
+    link: "https://github.com/zarifdesanta/MoneyTrackingApp",
+  },
   {
     image: FocusTimer,
     name: "FOCUS TIMER",

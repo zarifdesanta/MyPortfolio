@@ -6,6 +6,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 import AnimatePage from "../components/AnimatePage";
 
@@ -37,6 +38,13 @@ function Home() {
                 link="https://zarifdesanta.itch.io/"
                 name="Itch.io"
                 icon={<SportsEsportsIcon></SportsEsportsIcon>}
+              ></HomeButton>
+            </li>
+            <li className="li-spacing">
+              <HomeButton
+                link="https://www.linkedin.com/in/gazi-md-julcarnine-8bb036237/"
+                name="Linkedin"
+                icon={<LinkedInIcon></LinkedInIcon>}
               ></HomeButton>
             </li>
             <li className="li-spacing">
